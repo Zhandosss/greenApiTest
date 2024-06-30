@@ -1,0 +1,49 @@
+body {
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flex_child {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1 0 350px;
+}
+
+.display {
+  flex: 1 0 500px;
+  min-height: 650px;
+}
+
+input {
+  margin: 5px 30px 5px;
+  padding: 5px;
+}
+
+[placeholder="number"] {
+  margin-top: 50px;
+}
+
+#api_token_instance {
+  margin-bottom: 50px;
+}
+
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 55px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  margin: 10px 30px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#fetch_api_res {
+  height: 100%;
+}
